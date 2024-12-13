@@ -49,4 +49,8 @@ from matrizrigidez import result
 # Executa os cálculos
 result.make()
 
+from plot_estrutura_def import plot_elements_def as ped
+ped.make( 10 )
 
+from plot_results import plot_results
+plot_results
